@@ -13,8 +13,8 @@ import io.flutter.plugin.common.MethodChannel
 
 class MainActivity: FlutterActivity() {
 
-    private val CHANNEL = "poc.deeplink.flutter.dev/channel"
-    private val EVENTS = "poc.deeplink.flutter.dev/events"
+    private val CHANNEL = "http.dl.ambition.guru/channel"
+    private val EVENTS = "http.dl.ambition.guru/events"
     private var startString: String? = null
     private var linksReceiver: BroadcastReceiver? = null
 
